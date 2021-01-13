@@ -108,6 +108,21 @@ class Fancy_Elementor_Flipbox extends Widget_Base {
 			]
 		);
 
+		$this->add_control(
+            'tp_flipbox_style',
+            [
+                'label' => esc_html__('Style', 'fancy-elementor-flipbox'),
+                'type' => Controls_Manager::SELECT,
+                'default' => 'flip-box-style',
+                'options' => [
+                    'flip-box-style'      => esc_html__('Flip Box',  'fancy-elementor-flipbox'),
+                    'rotate-box-style'    => esc_html__('Rotate Style',  'fancy-elementor-flipbox'),
+                    'zoomin-box-style'    => esc_html__('Zoom In Style',  'fancy-elementor-flipbox'),
+                    'zoomout-box-style'   => esc_html__('Zoom Out Style',  'fancy-elementor-flipbox'),
+								],
+						]
+		);
+
 
 		$this->add_control(
     'tp_flipbox_type',
@@ -680,7 +695,7 @@ $tp_flipbox_f_bg_color = $settings['tp_flipbox_f_bg_color'];
 
 
 
-		echo '<div id="flip-demo-0" class="tp-flipbox tp-flipbox--'.$settings['tp_flipbox_type'].'" onclick="">';
+		echo '<div id="flip-demo-0" class="tp-flipbox '.$settings['tp_flipbox_style'].' tp-flipbox--'.$settings['tp_flipbox_type'].'" onclick="">';
 	  echo '    <div class="tp-flipbox__holder" >';
 	  echo '        <div class="tp-flipbox__front" style=" background-color:'.$tp_flipbox_f_bg_color.';background-image: url('.$tp_bg_img_front['url'].');">';
 
@@ -744,7 +759,7 @@ $tp_flipbox_f_bg_color = $settings['tp_flipbox_f_bg_color'];
 		</div>
 
 
-		<div id="flip-demo-0" class="tp-flipbox tp-flipbox--{{settings.tp_flipbox_type}}" onclick="">
+		<div id="flip-demo-0" class="tp-flipbox tp-flipbox--{{settings.tp_flipbox_type}} {{settings.tp_flipbox_style}}" onclick="">
 	      <div class="tp-flipbox__holder" >
 	          <div class="tp-flipbox__front">
 

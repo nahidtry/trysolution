@@ -3,7 +3,7 @@
  * Plugin Name: Fancy Elementor Flipbox
  * Description: This plugin adds an amazing and customizable flip box widget(with many options) to the Elementor page builder plugin.
  * Plugin URI:  http://themeprix.com/fancy-elementor-flipbox/
- * Version:     1.0.7
+ * Version:     2.0.0
  * Author:      ThemePrix
  * Author URI:  https://themeprix.com/
  * Text Domain: fancy-elementor-flipbox

@@ -9,10 +9,10 @@ License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Plugin URI: http://themeprix.com/fancy-elementor-flipbox/
 Author URI: http://themeprix.com/
-Stable tag: 1.0.7
+Stable tag: 2.0.0
 =======
 
-Fancy Elementor Flipbox for Elementor WordPress Page Builder. A fully free and endless customization flipbox.
+Fancy Elementor Flipbox for Elementor WordPress Page Builder. A fully free and endless customization Flipbox, Rotate Style, Zoom In Style and Zoom Out Style.
 
 == Description ==
 Fancy Elementor Flipbox for Elementor WordPress Page Builder. A fully free and endless customization flipbox. It's free and has lots of options to create a perfect flipbox element.
@@ -42,6 +42,9 @@ Note : This plugin works with Elementor. Make sure you have [Elementor](https://
 
 
 == Frequently Asked Questions ==
+= How many styles does it have? =
+4 Styles. Flipbox, Rotate Style, Zoom In Style and Zoom Out Style.
+
 = Could I use this plugin without Elementor Page Builder? =
 No. You could not use without Elementor since it's a widget for Elementor.
 
